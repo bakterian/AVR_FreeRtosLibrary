@@ -321,7 +321,7 @@ extern "C" {
 // Greater than 100% memory usage. Subtle fail.
 // Less than 96%. Typically every byte counts for 328p.
 // Watch for the stack overflowing, if you use interrupts. Use configCHECK_FOR_STACK_OVERFLOW
-#define configTOTAL_HEAP_SIZE	( (size_t ) 1000 )				// used for heap_1.c, heap_2.c, and heap_4.c only
+#define configTOTAL_HEAP_SIZE	( (size_t ) 944 )				// used for heap_1.c, heap_2.c, and heap_4.c only
 
 //	#define portEXT_RAMFS					// XRAM Memory is available from a 2560 as 16 banks of 32kByte for 16x 328p ArduSat (Uno) clients.
 
